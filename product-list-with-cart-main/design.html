@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product-List-With-Cart</title>
+    <!-- <link rel="print" href=""> -->
+    <link rel="stylesheet" href="design.css">
+    <script src="design.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <div id="main">
+            <h1>Desserts</h1>
+            <div class="items">
+                <div class="image"><img src="./assets/images/image-waffle-mobile.jpg" alt="image-waffle-mobile"></div>
+                <div class="cart-container">
+                    <span><img class="cart" src="./assets/images/icon-add-to-cart.svg" alt=""></span>
+                    <span class="add-cart">Add to Carts</span>
+                </div>
+                <div id="waffle-container" class="cart-container-2">
+                    <img class="decrement" src="./assets/images/icon-decrement-quantity.svg"
+                        alt="icon-decrement-quantity">
+                    <p id="waffle" class="amount-wanted">0</p>
+                    <img class="increment" src="./assets/images/icon-increment-quantity.svg"
+                        alt="icon-increment-quantity">
+                </div>
+                <p class="name">waffle</p>
+                <p class="name-with">waffle with Berries</p>
+                <p class="price">&dollar;6.50</p>
+            </div>
+            <div class="items">
+                <div class="image"><img src="./assets/images/image-creme-brulee-mobile.jpg"
+                        alt="image-creme-brulee-mobile"></div>
+                <div class="cart-container">
+                    <span><img class="cart" src="./assets/images/icon-add-to-cart.svg" alt=""></span>
+                    <span class="add-cart">Add to Carts</span>
+                </div>
+                <div id="Crème-container" class="cart-container-2">
+                    <img class="decrement" src="./assets/images/icon-decrement-quantity.svg"
+                        alt="icon-decrement-quantity">
+                    <p id="Crème" class="amount-wanted">0</p>
+                    <img class="increment" src="./assets/images/icon-increment-quantity.svg"
+                        alt="icon-increment-quantity">
+                </div>
+                <p class="name">Crème Brûlée</p>
+                <p class="name-with">Vanilla Bean Crème Brûlée</p>
+                <p class="price">&dollar;7.00</p>
+            </div>
+            <div class="items">
+                <div class="image"><img src="./assets/images/image-macaron-mobile.jpg" alt="image-macaron-mobile">
+                </div>
+                <div class="cart-container">
+                    <span><img class="cart" src="./assets/images/icon-add-to-cart.svg" alt=""></span>
+                    <span class="add-cart">Add to Carts</span>
+                </div>
+                <div id="Macaron-container" class="cart-container-2">
+                    <img class="decrement" src="./assets/images/icon-decrement-quantity.svg"
+                        alt="icon-decrement-quantity">
+                    <p id="Macaron" class="amount-wanted">0</p>
+                    <img class="increment" src="./assets/images/icon-increment-quantity.svg"
+                        alt="icon-increment-quantity">
+                </div>
+                <p class="name">Macaron</p>
+                <p class="name-with">Macaron Mix of Five</p>
+                <p class="price">&dollar;8.00</p>
+            </div>
+            <div class="items">
+                <div class="image"><img src="./assets/images/image-tiramisu-mobile.jpg" alt="image-tiramisu-mobile">
+                </div>
+                <div class="cart-container">
+                    <span><img class="cart" src="./assets/images/icon-add-to-cart.svg" alt=""></span>
+                    <span class="add-cart">Add to Carts</span>
+                </div>
+                <div id="Tiramisu-container" class="cart-container-2">
+                    <img class="decrement" src="./assets/images/icon-decrement-quantity.svg"
+                        alt="icon-decrement-quantity">
+                    <p id="Tiramisu" class="amount-wanted">0</p>
+                    <img class="increment" src="./assets/images/icon-increment-quantity.svg"
+                        alt="icon-increment-quantity">
+                </div>
+                <p class="name">Tiramisu</p>
+                <p class="name-with">Classic Tiramisu</p>
+                <p class="price">&dollar;5.50</p>
+            </div>
+            <div class="items">
+                <div class="image"><img src="./assets/images/image-baklava-mobile.jpg" alt="image-baklava-mobile">
+                </div>
+                <div class="cart-container">
+                    <span><img class="cart" src="./assets/images/icon-add-to-cart.svg" alt=""></span>
+                    <span class="add-cart">Add to Carts</span>
+                </div>
+                <div id="Baklava-container" class="cart-container-2">
+                    <img class="decrement" src="./assets/images/icon-decrement-quantity.svg"
+                        alt="icon-decrement-quantity">
+                    <p id="Baklava" class="amount-wanted">0</p>
+                    <img class="increment" src="./assets/images/icon-increment-quantity.svg"
+                        alt="icon-increment-quantity">
+                </div>
+                <p class="name">Baklava</p>
+                <p class="name-with">Pistachio Baklava</p>
+                <p class="price">&dollar;4.00</p>
+            </div>
+            <div class="items">
+                <div class="image"><img src="./assets/images/image-meringue-mobile.jpg" alt="image-waffle-mobile">
+                </div>
+                <div class="cart-container">
+                    <span><img class="cart" src="./assets/images/icon-add-to-cart.svg" alt=""></span>
+                    <span class="add-cart">Add to Carts</span>
+                </div>
+                <div id="Pie-container" class="cart-container-2">
+                    <img class="decrement" src="./assets/images/icon-decrement-quantity.svg"
+                        alt="icon-decrement-quantity">
+                    <p id="Pie" class="amount-wanted">0</p>
+                    <img class="increment" src="./assets/images/icon-increment-quantity.svg"
+                        alt="icon-increment-quantity">
+                </div>
+                <p class="name">Pie</p>
+                <p class="name-with">Lemon Meringue Pie</p>
+                <p class="price">&dollar;5.00</p>
+            </div>
+            <div class="items">
+                <div class="image"><img src="./assets/images/image-cake-mobile.jpg" alt="image-waffle-mobile"></div>
+                <div class="cart-container">
+                    <span><img class="cart" src="./assets/images/icon-add-to-cart.svg" alt=""></span>
+                    <span class="add-cart">Add to Carts</span>
+                </div>
+                <div id="Cake-container" class="cart-container-2">
+                    <img class="decrement" src="./assets/images/icon-decrement-quantity.svg"
+                        alt="icon-decrement-quantity">
+                    <p id="Cake" class="amount-wanted">0</p>
+                    <img class="increment" src="./assets/images/icon-increment-quantity.svg"
+                        alt="icon-increment-quantity">
+                </div>
+                <p class="name">Cake</p>
+                <p class="name-with">Red Velvet Cake</p>
+                <p class="price">&dollar;6.50</p>
+            </div>
+            <div class="items">
+                <div class="image"><img src="./assets/images/image-brownie-mobile.jpg" alt="image-waffle-mobile"></div>
+                <div class="cart-container">
+                    <span><img class="cart" src="./assets/images/icon-add-to-cart.svg" alt=""></span>
+                    <span class="add-cart">Add to Carts</span>
+                </div>
+                <div id="Brownie-container" class="cart-container-2">
+                    <img class="decrement" src="./assets/images/icon-decrement-quantity.svg"
+                        alt="icon-decrement-quantity">
+                    <p id="Crème" class="amount-wanted">0</p>
+                    <img class="increment" src="./assets/images/icon-increment-quantity.svg"
+                        alt="icon-increment-quantity">
+                </div>
+                <p class="name">Brownie</p>
+                <p class="name-with">Salted Caramel Brownie</p>
+                <p class="price">&dollar;5.50</p>
+            </div>
+            <div class="items">
+                <div class="image"><img src="./assets/images/image-panna-cotta-mobile.jpg"
+                        alt="image-panna-cotta-mobile"></div>
+                <div class="cart-container">
+                    <span><img class="cart" src="./assets/images/icon-add-to-cart.svg" alt=""></span>
+                    <span class="add-cart">Add to Carts</span>
+                </div>
+                <div id="Panna-container" class="cart-container-2">
+                    <img class="decrement" src="./assets/images/icon-decrement-quantity.svg"
+                        alt="icon-decrement-quantity">
+                    <p id="Panna" class="amount-wanted">0</p>
+                    <img class="increment" src="./assets/images/icon-increment-quantity.svg"
+                        alt="icon-increment-quantity">
+                </div>
+                <p class="name">Panna Cotta</p>
+                <p class="name-with">Vanilla Panna Cotta</p>
+                <p class="price">&dollar;6.50</p>
+            </div>
+        </div>
+        <div id="selected">
+            <div id="firstTag">
+                <h2 class="amount-pad">Your Cart(<span class="amount">0</span>)</h2>
+                <img class="empty" src="./assets/images/illustration-empty-cart.svg" alt="illustration-empty-cart">
+                <p class="item-reflect">Your added items will appear here</p>
+            </div>
+            <div class="secondTag">
+                <div class="properties">
+                    <h3 class="h3ItemName">Waffle with Berries</h3>
+                    <div>
+                        <p>
+                            <span class="added-amount"><span class="times">0</span>x</span>
+                            <span class="priceList"><span class="at">@ </span><span>&dollar;</span><span class="cost">6.50</span>
+                            </span><span class="totalCost">&dollar;<span class="totalCostPrice">0.00</span></span>
+                        </p>
+                    </div>
+                </div>
+                <img class="removeOrder" src="./assets/images/icon-remove-item.svg" alt="icon-remove-item"> .
+            </div>
+            <div class="secondTag">
+                <div class="properties">
+                    <h3 class="h3ItemName">Vanilla Bean Crème Brûlée</h3>
+                    <div>
+                        <p>
+                            <span class="added-amount"><span class="times">0</span>x</span>
+                            <span class="priceList"><span class="at">@ </span><span>&dollar;</span><span class="cost">7.00</span>
+                            </span><span class="totalCost">&dollar;<span class="totalCostPrice">0.00</span></span>
+                        </p>
+                    </div>
+                </div>
+                <img class="removeOrder" src="./assets/images/icon-remove-item.svg" alt="icon-remove-item"> .
+            </div>
+            <div class="secondTag">
+                <div class="properties">
+                    <h3 class="h3ItemName">Macaron Mix of Five</h3>
+                    <div>
+                        <p>
+                            <span class="added-amount"><span class="times">0</span>x</span>
+                            <span class="priceList"><span class="at">@ </span><span>&dollar;</span><span class="cost">8.00</span>
+                            </span><span class="totalCost">&dollar;<span class="totalCostPrice">0.00</span></span>
+                        </p>
+                    </div>
+                </div>
+                <img class="removeOrder" src="./assets/images/icon-remove-item.svg" alt="icon-remove-item"> .
+            </div>
+            <div class="secondTag">
+                <div class="properties">
+                    <h3 class="h3ItemName">Classic Tiramisu</h3>
+                    <div>
+                        <p>
+                            <span class="added-amount"><span class="times">0</span>x</span>
+                            <span class="priceList"><span class="at">@ </span><span>&dollar;</span><span class="cost">5.50</span>
+                            </span><span class="totalCost">&dollar;<span class="totalCostPrice">0.00</span></span>
+                        </p>
+                    </div>
+                </div>
+                <img class="removeOrder" src="./assets/images/icon-remove-item.svg" alt="icon-remove-item"> .
+            </div>
+            <div class="secondTag">
+                <div class="properties">
+                    <h3 class="h3ItemName">Pistachio Baklava</h3>
+                    <div>
+                        <p>
+                            <span class="added-amount"><span class="times">0</span>x</span>
+                            <span class="priceList"><span class="at">@ </span><span>&dollar;</span><span class="cost">4.00</span>
+                            </span><span class="totalCost">&dollar;<span class="totalCostPrice">0.00</span></span>
+                        </p>
+                    </div>
+                </div>
+                <img class="removeOrder" src="./assets/images/icon-remove-item.svg" alt="icon-remove-item"> .
+            </div>
+            <div class="secondTag">
+                <div class="properties">
+                    <h3 class="h3ItemName">Lemon Meringue Pie</h3>
+                    <div>
+                        <p>
+                            <span class="added-amount"><span class="times">0</span>x</span>
+                            <span class="priceList"><span class="at">@ </span><span>&dollar;</span><span class="cost">5.00</span>
+                            </span><span class="totalCost">&dollar;<span class="totalCostPrice">0.00</span></span>
+                        </p>
+                    </div>
+                </div>
+                <img class="removeOrder" src="./assets/images/icon-remove-item.svg" alt="icon-remove-item"> .
+            </div>
+            <div class="secondTag">
+                <div class="properties">
+                    <h3 class="h3ItemName">Red Velvet Cake</h3>
+                    <div>
+                        <p>
+                            <span class="added-amount"><span class="times">0</span>x</span>
+                            <span class="priceList"><span class="at">@ </span><span>&dollar;</span><span class="cost">4.50</span>
+                            </span><span class="totalCost">&dollar;<span class="totalCostPrice">0.00</span></span>
+                        </p>
+                    </div>
+                </div>
+                <img class="removeOrder" src="./assets/images/icon-remove-item.svg" alt="icon-remove-item"> .
+            </div>
+            <div class="secondTag">
+                <div class="properties">
+                    <h3 class="h3ItemName">Salted Caramel Brownie</h3>
+                    <div>
+                        <p>
+                            <span class="added-amount"><span class="times">0</span>x</span>
+                            <span class="priceList"><span class="at">@ </span><span>&dollar;</span><span class="cost">5.50</span>
+                            </span><span class="totalCost">&dollar;<span class="totalCostPrice">0.00</span></span>
+                        </p>
+                    </div>
+                </div>
+                <img class="removeOrder" src="./assets/images/icon-remove-item.svg" alt="icon-remove-item"> .
+            </div>
+            <div class="secondTag">
+                <div class="properties">
+                    <h3 class="h3ItemName">Vanilla Panna Cotta</h3>
+                    <div>
+                        <p>
+                            <span class="added-amount"><span class="times">0</span>x</span>
+                            <span class="priceList"><span class="at">@ </span><span>&dollar;</span><span class="cost">6.50</span>
+                            </span><span class="totalCost">&dollar;<span class="totalCostPrice">0.00</span></span>
+                        </p>
+                    </div>
+                </div>
+                <img class="removeOrder" src="./assets/images/icon-remove-item.svg" alt="icon-remove-item"> .
+            </div>
+            <div class="thirdTag">
+                <p class="totalOrder">
+                    <span class="orderText">Order Total</span>
+                    <span class="orderPrice">&dollar;<span class="orderTotal">00.00</span></span>
+                </p>
+                <div class="carbon-neutral">
+                    <img src="./assets/images/icon-carbon-neutral.svg" alt="icon-carbon-neutral">
+                    <p>This is a carbon-neutral delivery</p>
+                </div>
+                <button class="confirmOrder">Confirm Order</button>
+            </div>
+            
+        </div>
+        <div class="layout">
+            <div class="insideLayout">
+                <div class="layoutTags">
+                    <div class="properties">
+                        <h3 class="h3ItemName">Waffle with Berries</h3>
+                        <div>
+                            <p>
+                                <span class="added-amount"><span class="layoutTimes">0</span>x</span>
+                                <span class="at">@ </span>
+                                </span><span class="totalCost">&dollar;<span class="layoutTotalCostPrice">0.00</span></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="layoutTags">
+                    <div class="properties">
+                        <h3 class="h3ItemName">Vanilla Bean Crème Brûlée</h3>
+                        <div>
+                            <p>
+                                <span class="added-amount"><span class="layoutTimes">0</span>x</span>
+                                <span class="at">@ </span>
+                                </span><span class="totalCost">&dollar;<span class="layoutTotalCostPrice">0.00</span></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="layoutTags">
+                    <div class="properties">
+                        <h3 class="h3ItemName">Macaron Mix of Five</h3>
+                        <div>
+                            <p>
+                                <span class="added-amount"><span class="layoutTimes">0</span>x</span>
+                                <span class="at">@ </span>
+                                </span><span class="totalCost">&dollar;<span class="layoutTotalCostPrice">0.00</span></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="layoutTags">
+                    <div class="properties">
+                        <h3 class="h3ItemName">Classic Tiramisu</h3>
+                        <div>
+                            <p>
+                                <span class="added-amount"><span class="layoutTimes">0</span>x</span>
+                                <span class="at">@ </span>
+                                </span><span class="totalCost">&dollar;<span class="layoutTotalCostPrice">0.00</span></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="layoutTags">
+                    <div class="properties">
+                        <h3 class="h3ItemName">Pistachio Baklava</h3>
+                        <div>
+                            <p>
+                                <span class="added-amount"><span class="layoutTimes">0</span>x</span>
+                                <span class="at">@ </span>
+                                </span><span class="totalCost">&dollar;<span class="layoutTotalCostPrice">0.00</span></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="layoutTags">
+                    <div class="properties">
+                        <h3 class="h3ItemName">Lemon Meringue Pie</h3>
+                        <div>
+                            <p>
+                                <span class="added-amount"><span class="layoutTimes">0</span>x</span>
+                                <span class="at">@ </span>
+                                </span><span class="totalCost">&dollar;<span class="layoutTotalCostPrice">0.00</span></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="layoutTags">
+                    <div class="properties">
+                        <h3 class="h3ItemName">Red Velvet Cake</h3>
+                        <div>
+                            <p>
+                                <span class="added-amount"><span class="layoutTimes">0</span>x</span>
+                                <span class="at">@ </span>
+                                </span><span class="totalCost">&dollar;<span class="layoutTotalCostPrice">0.00</span></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="layoutTags">
+                    <div class="properties">
+                        <h3 class="h3ItemName">Salted Caramel Brownie</h3>
+                        <div>
+                            <p>
+                                <span class="added-amount"><span class="layoutTimes">0</span>x</span>
+                                <span class="at">@ </span>
+                                </span><span class="totalCost">&dollar;<span class="layoutTotalCostPrice">0.00</span></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="layoutTags">
+                    <div class="properties">
+                        <h3 class="h3ItemName">Vanilla Panna Cotta</h3>
+                        <div>
+                            <p>
+                                <span class="added-amount"><span class="layoutTimes">0</span>x</span>
+                                <span class="at">@ </span>
+                                </span><span class="totalCost">&dollar;<span class="layoutTotalCostPrice">0.00</span></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="thirdTag">
+                    <p class="totalOrder">
+                        <span class="orderText">Order Total</span>
+                        <span class="orderPrice">&dollar;<span class="layoutOrderTotal">00.00</span></span>
+                    </p>
+                    <div class="carbon-neutral">
+                        <img src="./assets/images/icon-carbon-neutral.svg" alt="icon-carbon-neutral">
+                        <p>This is a carbon-neutral delivery</p>
+                    </div>
+                    <button class="startOrder">Start New Order</button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
